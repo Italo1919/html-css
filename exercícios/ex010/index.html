@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+    <h1>Usando Links externos</h1>
+    <p>Você pode acessar o meu <a href=https://github.com/Italo1919 target="_blank" rel="external">repositório público
+            no Github</a></p>
+
+
+</head>
+
+<body>
+
+    <p>você pode também acessar a <a href="pag002.html" rel="next" target="_self">segunda página</a> do site</p>
+    <!--O "target= _self" serve para abrir a aba por cima dela mesma, diferentemente do "target= _blank" que abre outra aba.-->
+    <h1>Lins para download</h1>
+    <ul>
+        <li><a href="livro/SENAI Play _ Plataforma de cursos online.pdf"
+                download="SENAI Play _ Plataforma de cursos online.pdf" type="application/pdf">Baixar o livro em PDF</a>
+
+                <!--O download acima não foi reconhecido pelo navegador, pelo fato de que o leitor de pdf no navegador já estava lendo o arquivo.-->
+        </li>
+        <li><a href="livro/SENAI Play _ Plataforma de cursos online.rar" type="application/zip">Livro compactado em
+                rar</a>
+        </li>
+    </ul>
+</body>
+
+</html>
